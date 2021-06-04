@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types", "index.d.ts"],
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "@core/*": ["./modules/core/*"],
+      "@steering/*": ["./modules/steering/*"],
+      "@view/*": ["./modules/view/*"]
+    }
+  }
+}
